@@ -271,10 +271,10 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
                        <h2>Apartado</h2>
                        <form>action="" method="get"</form>
                         <p>Elige una opción</p> <br>
-                        <input="radio" name="opcion1">opcion1 <br>
-                        <input="radio" name="opcion2">opcion2 <br>
-                        <input="radio" name="opcion3">opcion3 <br>
-                        <input="sumit" value="Enviar"
+                        <input type="radio" name="opcion1">opcion1 <br>
+                        <input type="radio" name="opcion2">opcion2 <br>
+                        <input type="radio" name="opcion3">opcion3 <br>
+                        <input type="sumit" value="Enviar"
                       </aside>
                      </main>
 
