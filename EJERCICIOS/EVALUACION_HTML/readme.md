@@ -243,6 +243,48 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
   
 ![image](https://user-images.githubusercontent.com/91554777/164575358-76757050-5393-44a3-a075-0583e749b4e8.png)
 
+                <!doctype>
+                  <html>
+                    <head>
+                     <title></title>
+                    </head>
+
+                    <body>
+
+                     <header>
+                      <h1>Encabezado nivel 1</h1>
+                      <nav>
+                       <a href="url">enlace 1</a>
+                       <a href="url">enlace 2</a>
+                       <a href="url">enlace 3</a>
+                       <a href="url">enlace 4</a>
+                      </nav>
+                     </header>
+
+                     <main>
+                      <section>
+                       <h2>Encabezado nivel 2</h2>
+                        <p>Aquí va el texto del primer <b>párrafo.</b></p>
+                        <p>Aquí va el texto el segundo párrafo.</p>
+                      </section>
+                      <aside>
+                       <h2>Apartado</h2>
+                       <form>action="" method="get"</form>
+                        <p>Elige una opción</p> <br>
+                        <input="radio" name="opcion1">opcion1 <br>
+                        <input="radio" name="opcion2">opcion2 <br>
+                        <input="radio" name="opcion3">opcion3 <br>
+                        <input="sumit" value="Enviar"
+                      </aside>
+                     </main>
+
+                     <footer>
+                       <p>Sección de información de contacto, derechos de autor, etc.</p>
+                     </footer>
+
+                    </body>
+                  </html>
+
   Debes tener en cuenta los siguientes requisitos:
   
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los
