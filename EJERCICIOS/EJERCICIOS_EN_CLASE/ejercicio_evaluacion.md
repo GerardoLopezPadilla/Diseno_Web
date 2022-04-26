@@ -53,3 +53,90 @@
 
 
 ## AGREGA EL CSS NECESARIO A LA PÁGINA.
+
+HTML:
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio_css</title>
+        <link rel="stylesheet" href="CSS/estilos.CSS">
+    </head>
+    <body>
+
+        <header>
+            <h1>ENCABEZADO NIVEL 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="">ENLACE 1</a></li>
+                    <li><a href="">ENLACE 2</a></li>
+                    <li><a href="">ENLACE 3</a></li>
+                    <li><a href="">ENLACE 4</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+
+            <section>
+                <h2>Encabezado nivel 2</h2>
+                <p>Aqui va el texto del primer <b>Párrafo</b></p>
+                <p>Aqui va el texto del segundo párrafo</p>
+            </section>
+
+            <aside>
+                <h2>Apartado</h2>
+                <p>Elige una opción</p>
+                <form action="">
+                    <input type="radio" name="opcion">Opción 1 <br>
+                    <input type="radio" name="opcion">Opción 2 <br>
+                    <input type="radio" name="opcion">Opción 3 <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </aside>
+
+        </main>
+
+
+        <footer>
+            <p>Sección de información de contacto, derechos de autor, etc</p>
+
+        </footer>
+
+    </body>
+    </html>
+
+CSS:
+
+    body{
+        background-color: aquamarine;
+    }
+    header{
+        background-color: rgb(36, 35, 35);
+    }
+        header h1{
+            color: rgb(173, 255, 223);
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(173, 255, 223);
+            color:rgb(36, 35, 35) ;
+            text-align: center;
+        }
+    main{
+        text-align: center;
+    }
+        main section{
+            background-color:rgb(55, 215, 255);
+        }
+        aside{
+            background-color: rgb(226, 0, 188);
+        }
+    footer{
+        background-color: yellow;
+        text-align: center;
+    }
