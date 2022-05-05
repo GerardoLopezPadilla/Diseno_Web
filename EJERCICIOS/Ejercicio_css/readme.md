@@ -8,98 +8,61 @@ Preguntas:
 ¿Qué significa CSS? (valor 0.25)
 
      a) Cascading Style Sheets
-     b) Computer Style Sheets
-     c) Creative Style Sheets
-     d) Colorful Style Sheets
    
 ¿Cuál es el HTML correcto para hacer referencia a una hoja de estilo externa? (valor 0.25)
 
-     a) <style src="mystyle.css">
      b) <link rel="stylesheet" type="text/css" href="style.css">
-     c) <stylesheet>mystyle.css</stylesheet>
   
 ¿En qué parte de un documento HTML es el lugar correcto para hacer referencia a una hoja de estilo externa? (valor 0.25)
 
      a) En la sección <head>
-     b) En la sección <body>
-     c) Al final del documento
   
 ¿Qué etiqueta HTML se utiliza para definir una hoja de estilo interna? (valor 0.25)
 
-    a) <css>
-    b) <script>
     c) <style>
   
 ¿Qué atributo HTML se usa para definir estilos en línea? (valor 0.25)
 
-    a) font
     b) styles
-    c) class
   
 ¿Cuál es la sintaxis CSS correcta? (valor 0.25)
 
-    a) {body;color:black;}
     b) body {color: black;}
-    c) body:color=black;
-    d) {body:color=black;}
-    d) style
   
 ¿Cómo se inserta un comentario en un archivo CSS? (valor 0.25)
 
     a) /* esto es un comentario */
-    b) // esto es un comentario
-    c) // esto es un comentario //
-    d) ' esto es un comentario
   
 ¿Qué propiedad se utiliza para cambiar el color de fondo? (valor 0.25)
 
-     a) bgcolor
      b) background-color
-     c) color
    
 ¿Cómo se agrega un color de fondo para todos los elementos h1 (valor 0.25)
 
-     a) all.h1 {background-color:#FFFFFF;}
      b) h1 {background-color:#FFFFFF;}
-     c) h1.all {background-color:#FFFFFF;}
-
+     
 ¿Qué propiedad CSS se usa para cambiar el color del texto de un elemento? (valor 0.25)
 
-    a) fgcolor
-    b) text-color
     c) color
   
 ¿Qué propiedad CSS controla el tamaño del texto? (valor 0.25
 
-     a) font-style
-     b) text-style
      c) font-size
-     d) text-size
  
 ¿Cuál es la sintaxis CSS correcta para poner en negrita todos los elementos p?(valor 0.25)
 
-     a) <p style=\"text-size:bold;\">
-     b) p {text-size:bold;}
      c) p {font-weight:bold;}
-     d) <p style=\"font-size:bold;\">
    
 ¿Cómo hacer que cada palabra en un texto comience con una letra mayúscula? (valor 0.25)
 
-    a) transform:capitalize
     b) text-transform:capitalize
-    c) No puedes hacer eso con CSS
-    d) text-style:capitalize
   
 ¿Qué propiedad se utiliza para cambiar la fuente de un elemento? (valor 0.25)
 
-    a) font-weight
-    b) font-family
     c) font-style
   
 ¿Cómo pones el texto en negrita? (valor 0.25)
 
-    a) style:bold;
-    b) font:bold;
     c) font-weight:bold;
   
 ¿Cómo se muestra un borde como este? (valor 0.25)
@@ -112,55 +75,40 @@ El borde izquierdo = 20 píxeles
 
 El borde derecho = 1 píxel
 
-      a) border-width:10px 1px 5px 20px;
-      b) border-width:5px 20px 10px 1px;
-      c) border-width:10px 20px 5px 1px;
-      d) border-width:10px 5px 20px 1px; (valor 0.25)
+      a) border-width:10px 1px 5px 20px;(valor 0.25)
       
 ¿Qué propiedad se usa para cambiar el margen izquierdo de un elemento? (valor 0.25)
 
-  a) padding-left
-  b) margin-left
+       b) margin-left
+  
 Al usar la propiedad de relleno (padding); ¿Está permitido usar valores negativos? (valor 0.25)
 
-    a) No
     b) Sí
-    c) indent
     
 ¿Cómo se selecciona un elemento con id 'demo'? (valor 0.25)
 
-     a) *demo
      b) #demo
-     c) .demo
-     d) demo
    
 20.¿Cómo se seleccionan elementos con el nombre de clase 'test'? (valor 0.25)
 
-        a) *test
         b) .test
-        c) #test
-        d) test
+        
 ¿Cómo se seleccionan todos los elementos p dentro de un elemento div? (valor 0.25)
 
-    a) div.p
     b) div p
-    c) div + p
+    
 22.¿Cómo se agrupan los selectores? (valor 0.25)
 
         a) Separe cada selector con un espacio
-        b) Separe cada selector con un signo más
-        c) Separe cada selector con una coma
+        
 ¿Cuál es el valor predeterminado de la propiedad posición? (valor 0.25)
 
-    a) absolute
-    b) fixed
-    c) relative
     d) static
+    
 24.¿Cómo se hace una lista que enumere sus elementos con cuadrados? (valor 0.25)
 
-        a) list-type: square;
-        b) list: square;
         c) list-style-type: square;
+        
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la maquetación en código html y css, valor 36)
 
 ![image](https://user-images.githubusercontent.com/101203533/166943891-54301898-e329-4618-91aa-23abf33bc29b.png)
