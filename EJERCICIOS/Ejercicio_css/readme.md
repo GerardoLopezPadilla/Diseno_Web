@@ -163,7 +163,7 @@ Al usar la propiedad de relleno (padding); ¿Está permitido usar valores negati
         c) list-style-type: square;
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la maquetación en código html y css, valor 36)
 
-image
+![image](https://user-images.githubusercontent.com/101203533/166943891-54301898-e329-4618-91aa-23abf33bc29b.png)
 
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los elementos semánticos de HTML5.
 
