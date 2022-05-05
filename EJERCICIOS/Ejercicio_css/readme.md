@@ -131,10 +131,118 @@ Imagen paisaje de la Ciudad de México https://escuelasdecodigo.cdmx.gob.mx/wp-c
 
 -El texto alternativo para la primer imagen imagen debe ser “Gobierno de la Ciudad de México”
 
+ Mockup
+      ![Mockup](https://user-images.githubusercontent.com/101203533/166975398-70c45c86-64d1-4c75-864f-f15a80ad26ba.png)
+
+      
       INGRESA AQUI EL CÓDIGO HTML
       
-      
+      <!DOCTYPE html>
+     <html>
+     <head>
+       <link rel="stylesheet" href="estilos.css">
+       <title>Evaluacion_css</title>
+     </head>
+
+     <body>
+
+       <header>
+        <div id="logo">
+         <img src="logo.svg" alt="logo"></img>
+        </div>
+        <hr>
+        <nav>
+         <div></div>
+         <div>
+          <ul>
+           <li class="li">Residentes</li>
+           <li class="li">Negocios</li>
+           <li class="li">Visitantes</li>
+           <li class="li">Gobierno</li>
+          </ul>
+         </div>
+        </nav>
+       </header>
+
+       <main>
+        <div id="tp">
+         <p id="ap">
+          <span>></span>APRENDE A PROGRAMAR<br><span>EN LAS ESCUELAS</span><br> DE CÓDIGO<br> DE LA CDMX
+         </p>
+        </div>
+       </main>
+
+       <footer>
+        <h3>¿Quién se puede inscribir?</h3>
+        <p>
+         Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana.
+         <br>
+         *Menores de edad deberán entrar a las instalaciones acompañados de un adulto.
+        </p>
+       </footer>
+
+     </body>
+
+     </html>
       
       
       INGRESA AQUI EL CSS
+      
+      *{
+       margin: 0;
+       padding: 0;}
+
+     header{
+       height: 15vh;}
+
+     #logo{
+       justify-content:left;
+       margin: 15px;}
+
+     nav{
+       display: flex;
+       justify-content: space-between;}
+
+     ul{
+       display: flex;
+       list-style-type: none;
+       color: green;
+       text-line-decoration: none
+       justify-content: space-around;
+       width: 100%;}
+
+     .li{
+       margin: 0px 5px;}
+
+     main{
+       background: url("hero.jpg");
+       backgrond-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       height: 60vh;
+       display: flex;
+       align-items: center;}
+
+     #tp{
+       width: 55%;
+       text-align: right;
+       color: white;
+       font-size: 70px;
+       }
+
+     #ap{
+       margin-top: 20px;}
+
+     span{
+      text-width: bold}
+
+     footer{
+       text-align: center;
+       align-items: top;
+       padding-bottom: 20px;
+       height: 20vh;}
+
+     h3{
+       color: goldenrod;}
+      
 Ingresa el link a tu página del proyecto final
