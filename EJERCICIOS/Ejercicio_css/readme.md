@@ -1,4 +1,4 @@
-5. LENGUAJE CSS
+## 5. LENGUAJE CSS
 Objetivo: Verificar el dominio de implementación de estilos (CSS) sobre el código html de una página web.
 
 Indicaciones: Pedir subrayar, encerrar en un círculo, o escribir la respuesta que consideren correcta.
