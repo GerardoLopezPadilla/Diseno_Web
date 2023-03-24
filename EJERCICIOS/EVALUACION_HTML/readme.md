@@ -252,31 +252,34 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
                     <body>
 
                      <header>
-                      <h1>Encabezado nivel 1</h1>
-                      <nav>
-                       <a href="url">enlace 1</a>
-                       <a href="url">enlace 2</a>
-                       <a href="url">enlace 3</a>
-                       <a href="url">enlace 4</a>
-                      </nav>
-                     </header>
-
-                     <main>
-                      <section>
-                       <h2>Encabezado nivel 2</h2>
-                        <p>Aquí va el texto del primer <b>párrafo.</b></p>
-                        <p>Aquí va el texto el segundo párrafo.</p>
-                      </section>
-                      <aside>
-                       <h2>Apartado</h2>
-                       <form>action="" method="get"</form>
-                        <p>Elige una opción</p> <br>
-                        <input type="radio" name="opcion1">opcion1 <br>
-                        <input type="radio" name="opcion2">opcion2 <br>
-                        <input type="radio" name="opcion3">opcion3 <br>
-                        <input type="sumit" value="Enviar"
-                      </aside>
-                     </main>
+                        <h1>ENCABEZADO NIVEL 1</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="">ENLACE 1</a></li>
+                                <li><a href="">ENLACE 2</a></li>
+                                <li><a href="">ENLACE 3</a></li>
+                                <li><a href="">ENLACE 4</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    
+                    <main>
+                        <section>
+                            <h2>Encabezado nivel 2</h2>
+                            <p>Aquí va texto del primer <b>párrafo</b>.</p>
+                            <p>Aquí va texto del segundo párrafo.</p>
+                        </section>
+                        <aside>
+                            <h2>Apartado</h2>
+                            <p>Elije una opción</p>
+                            <form action=""  method="">
+                                <input type="checkbox" name="Opción" value="Opción 1">Opción 1 <br>
+                                <input type="checkbox" name="Opción" value="Opción 2">Opción 2 <br>
+                                <input type="checkbox" name="Opción" value="Opción 3">Opción 3 <br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </aside>
+                    </main>
 
                      <footer>
                        <p>Sección de información de contacto, derechos de autor, etc.</p>
